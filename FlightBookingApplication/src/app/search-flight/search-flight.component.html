@@ -1,0 +1,29 @@
+
+<ul>
+    <li onclick="setType('O');">One-Way </li>
+    <li onclick="setType('R');">Round-Trip</li>
+  
+  </ul> <br><br>
+ <input  type="text" 
+ placeholder="From" , id="from"
+ autocomplete="off" [(ngModel)]='searchFlight.fromLocation'>
+<br>
+<input  type="text" 
+placeholder="To" , id="to"
+autocomplete="off" [(ngModel)]='searchFlight.toLocation'>
+<br>
+<input  type="date" 
+placeholder="Departure" , id="date"
+autocomplete="off" [(ngModel)]='searchFlight.date'>
+<br>
+<input  type="text" 
+placeholder="Traveller" 
+autocomplete="off" [(ngModel)]='searchFlight.travellers'> 
+<span >1 Traveller(s)</span>
+<br>
+  <button (click)='searchFlights()'>Search</button>
+
+  
+
+
+  

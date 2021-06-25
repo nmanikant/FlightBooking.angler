@@ -1,0 +1,79 @@
+{
+  "flights": [
+    {
+      "airlineName": "nhj",
+      "uploadLogo": "mn",
+      "contactNumber": 0,
+      "contactAddress": "ddddsdsd",
+      "id": 1
+    },
+    {
+      "airlineName": "2",
+      "uploadLogo": "1",
+      "contactNumber": 0,
+      "contactAddress": "klm",
+      "id": 2
+    }
+  ],
+  "bookedflights": [
+    {
+      "oneWay": "oneway",
+      "roundTrip": "",
+      "airlineName": "indigo",
+      "name": "Passenger1",
+      "email": "Passenger1@gmail.com",
+      "from": "Banglore",
+      "to": "Hyderabad",
+      "onwardJourney": "2021-05-30",
+      "returnJourney": "2021-05-31",
+      "airlineLogo": "",
+      "discountCode": "0",
+      "onwardSeat": "1",
+      "returnSeat": "1",
+      "mealPreference": "veg",
+      "price": 0,
+      "selectSeat": "",
+      "id": 1
+    }
+  ],
+  "airlinelist": [
+    {
+      "airlineName": "Indigo",
+      "uploadLogo": "",
+      "contactNumber": 0,
+      "contactAddress": "",
+      "flightNumber": "A1",
+      "fromPlace": "",
+      "toPlace": "",
+      "startDateTime": "2021-05-30T13:04:52.745Z",
+      "endDateTime": "2021-05-30T13:04:52.745Z",
+      "scheduledDays": "",
+      "instrumentUsed": "",
+      "numberOfBusinessSeats": "",
+      "numberOfNonBusinessSeats": "",
+      "ticketCost": 0,
+      "noOfRows": 0,
+      "meal": "",
+      "id": 1
+    },
+    {
+      "airlineName": "Air Asia",
+      "uploadLogo": "",
+      "contactNumber": 0,
+      "contactAddress": "",
+      "flightNumber": "A2",
+      "fromPlace": "",
+      "toPlace": "",
+      "startDateTime": "2021-05-30T17:51:17.298Z",
+      "endDateTime": "2021-05-30T17:51:17.298Z",
+      "scheduledDays": "",
+      "instrumentUsed": "",
+      "numberOfBusinessSeats": "",
+      "numberOfNonBusinessSeats": "",
+      "ticketCost": 0,
+      "noOfRows": 0,
+      "meal": "",
+      "id": 2
+    }
+  ]
+}
